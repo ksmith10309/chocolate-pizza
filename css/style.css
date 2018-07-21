@@ -1,0 +1,191 @@
+body {
+    margin: 35px 170px;
+}
+
+header {
+    width: 900px;
+    font-size: 0px;
+}
+
+.delicious {
+    display: block;
+    font-size: 42px;
+    margin-left: 5px;
+    font-family: 'Yellowtail', cursive;
+}
+
+.food {
+    display: block;
+    font-size: 10px;
+    margin-left: 10px;
+    font-family: 'Roboto Mono', 'monospace';
+}
+
+.icon-div {
+    float: right;
+    margin-top: 10px;
+}
+
+header div {
+    display: inline-block;
+}
+
+.image {
+    margin: 1px;
+}
+
+.pinterest {
+    margin-right: 9px;
+}
+
+main {
+    margin-top: 100px;
+    width: 900px;
+}
+
+h1 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 40px;
+}
+
+.posted-div {
+    display: inline-block;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-size: 13px;
+    color: rgb(150, 150, 150); 
+}
+
+.print-div {
+    display: inline-block;
+    float: right;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-size: 13px;
+    color: rgb(150, 150, 150);
+}
+
+.choco {
+    margin-top: 30px;
+}
+.text {
+    text-indent: 30px;
+    font-size: 18px;
+}
+
+.text p {
+    margin-top: 30px;
+    font-family: 'Inika', serif;
+    font-size: 17px;
+    line-height: 23px;
+}
+
+.column {
+    vertical-align: top;
+    width: 380px;
+    display: inline-block;
+}
+.column .container {
+    display: block;
+}
+
+.container span {
+    margin-left: 5px;
+    color: rgb(130, 110, 80);
+    display: inline-block;
+}
+
+input {
+    -webkit-appearance: none;
+    width: 12px;
+    height: 12px;
+    border: 1px solid rgb(130, 110, 80);
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.ingredients {
+    margin-top: 30px;
+    position: relative;
+    font-size: 24px;
+    line-height: 31px;
+}
+
+form {
+    position: absolute;
+    margin-left: 20px;
+    top: 36px;
+    left: 40px;
+    font-family: 'Patrick Hand', cursive;
+}
+
+span.line-through {
+    text-decoration: line-through;
+}
+
+span.relative {
+    position: relative;
+    bottom: 30px;
+    left: 18px;
+}
+
+.author {
+    position: relative;
+}
+
+.author div {
+    display: inline-block;
+}
+
+.name-div {
+    vertical-align: top;
+    width: 600px;
+    margin-left: 20px;
+}
+
+.name {
+    display: block;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.foodie {
+    font-size: 20px;
+    display: block;
+    line-height: 24px;
+}
+
+button {
+    float: right;
+    width: 180px;
+    height: 54px;
+    font-size: 18px;
+    background-color: rgb(190, 110, 90);
+    color: white;
+    border: 0;
+    margin-top: 10px;
+}
+
+footer {
+    width: 900px;
+    margin-top: 80px;
+    border-top: 1px solid rgb(240,240,240);
+    padding-top: 40px;
+    color: rgb(180,180,180);
+}
+
+footer span {
+    display: block;
+    text-align: center;
+    line-height: 22px;
+}
+
+.bottom-img {
+    position: absolute;
+    left: 430px;
+    top: 145px;
+    background-color: white;
+}
+
+.bottom-img img {
+    margin: 0px 10px;
+}
