@@ -1,5 +1,5 @@
 body {
-    margin: 35px 170px;
+    margin: 28px 170px;
 }
 
 header {
@@ -16,14 +16,14 @@ header {
 
 .food {
     display: block;
-    font-size: 10px;
+    font-size: 12px;
     margin-left: 10px;
-    font-family: 'Roboto Mono', 'monospace';
+    font-family: 'Barlow Semi Condensed', 'sans-serif';
 }
 
 .icon-div {
     float: right;
-    margin-top: 10px;
+    margin-top: 16px;
 }
 
 header div {
@@ -39,43 +39,49 @@ header div {
 }
 
 main {
-    margin-top: 100px;
+    margin-top: 30px;
     width: 900px;
 }
 
 h1 {
-    font-family: 'Fjalla One', sans-serif;
-    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 42px;
+    margin-top: 54px;
+    margin-bottom: 4px;
 }
 
 .posted-div {
     display: inline-block;
-    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-size: 13px;
     color: rgb(150, 150, 150); 
+    line-height: 25px;
 }
 
 .print-div {
     display: inline-block;
     float: right;
-    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-size: 13px;
     color: rgb(150, 150, 150);
+    line-height: 25px;
 }
 
 .choco {
-    margin-top: 30px;
+    margin-top: 23px;
 }
+
 .text {
     text-indent: 30px;
-    font-size: 18px;
 }
 
 .text p {
-    margin-top: 30px;
-    font-family: 'Inika', serif;
+    padding-top: 26px;
+    padding-bottom: 4px;
     font-size: 17px;
-    line-height: 23px;
+    line-height: 26px;
+    color: rgb(100, 100, 100);
+    font-family: 'Inika', serif;
 }
 
 .column {
@@ -103,10 +109,12 @@ input {
 }
 
 .ingredients {
-    margin-top: 30px;
+    margin-top: 27px;
     position: relative;
     font-size: 24px;
     line-height: 31px;
+    margin-bottom: 28px;
+    border-top: 1px solid rgb(240, 230, 220);
 }
 
 form {
@@ -129,29 +137,36 @@ span.relative {
 
 .author {
     position: relative;
+    margin-top: 22px;
 }
 
 .author div {
     display: inline-block;
+    color: rgb(75,75,75);
 }
 
 .name-div {
     vertical-align: top;
     width: 600px;
-    margin-left: 20px;
+    margin-left: 18px;
+    color: rgb(100, 100, 100);
 }
 
 .name {
     display: block;
     font-size: 22px;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 13px;
+    line-height: 22px;
+    font-family: 'Song Myung', serif;
 }
 
 .foodie {
     font-size: 20px;
     display: block;
-    line-height: 24px;
+    line-height: 26px;
+    font-size: 17px;
+    font-family: 'Inika', serif;
 }
 
 button {
@@ -163,29 +178,47 @@ button {
     color: white;
     border: 0;
     margin-top: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 footer {
     width: 900px;
-    margin-top: 80px;
+    margin-top: 98px;
     border-top: 1px solid rgb(240,240,240);
-    padding-top: 40px;
+    padding-top: 44px;
     color: rgb(180,180,180);
+    margin-bottom: 71px;
+    font-size: 16px;
 }
 
 footer span {
     display: block;
     text-align: center;
     line-height: 22px;
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 15px;
 }
 
 .bottom-img {
     position: absolute;
-    left: 430px;
-    top: 145px;
+    left: 422px;
+    top: 163px;
     background-color: white;
 }
 
 .bottom-img img {
     margin: 0px 10px;
+}
+
+/*
+.slash-border {
+    background: repeating-linear-gradient(45deg, transparent, transparent 2px, rgb(150,150,150) 2px, rgb(150,150,150) 3px, transparent 3px, transparent 5px, rgb(150,150,150) 5px, rgb(150,150,150) 6px);
+    height: 12px;
+}
+*/
+
+.slash-border {
+    background-image: linear-gradient(45deg, transparent, transparent 40%, rgb(150,150,150) 40%, rgb(150,150,150) 60%, transparent 60%);
+    background-size: 4px 4px;
+    height: 13px;
 }
